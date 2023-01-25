@@ -1,14 +1,13 @@
 import { StyleSheet } from 'react-native';
-
-import EditScreenInfo from '../components/EditScreenInfo';
-import { Text, View } from '../components/Themed';
+import HeroSection from '../components/HeroSection/HeroSection';
+import ScheduleList from '../components/ScheduleList/ScheduleList';
+import { View } from '../components/Themed';
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}> mFlanki start screen hej</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="/screens/TabOneScreen.tsx" />
+      <HeroSection />
+      <ScheduleList />
     </View>
   );
 }
