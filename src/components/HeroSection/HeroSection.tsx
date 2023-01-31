@@ -21,12 +21,14 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     width: '100%',
-    backgroundColor: Colors.theme.primary,
+    // backgroundColor: Colors.theme.primary,
+    backgroundColor: 'skyblue',
     height: '10%',
   },
   header: {
     color: Colors.theme.font,
     fontSize: 24,
     textAlign: 'center',
+    fontWeight: '700',
   },
 });
